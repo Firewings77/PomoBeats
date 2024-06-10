@@ -1,0 +1,100 @@
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #f28b82; /* Light red */
+  color: white;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-buttons {
+  display: flex;
+  gap: 10px; /* Adjust spacing between buttons as needed */
+}
+
+.timer, .spotify{ 
+  margin: 20px;
+  padding: 20px;
+  border: 2px solid #f28b82; /* Light red */
+  border-radius: 5px;
+}
+
+button {
+  margin: 10px;
+  padding: 10px 20px;
+  background-color: #f28b82; /* Light red */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #cc7460; /* Darker shade of red */
+}
+
+h2 {
+  color: #555;
+}
+
+span {
+  display: block;
+  font-size: 2em;
+  margin: 10px 0;
+}
+
+.task-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-top: 10px;
+  padding: 10px;
+  background: #f9f9f9;
+  border-radius: 5px;
+}
+
+.task-text, input {
+  flex-grow: 1;
+  word-wrap: break-word;
+  word-break: break-word;
+  margin-right: 10px;
+}
+
+.task-actions {
+  display: flex;
+  flex-shrink: 0;
+  align-items: center;
+}
+
+.completed {
+  text-decoration: line-through;
+  color: #aaa;
+}
+
+.input-wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.input-wrapper input {
+  flex-grow: 1;
+  padding: 8px;
+  border: 1px solid #ccc;
+}
+
+.add-task-button, .task-actions button {
+  margin: 10px;
+  padding: 10px 20px;
+  background-color: #f28b82;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.add-task-button:hover, .task-actions button:hover {
+  background-color: #cc7460;
+}

@@ -1,0 +1,84 @@
+.form-container {
+  background-color: #ffffff;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 90%;
+  max-width: 400px;
+  margin: 2rem auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.form-container h1 {
+  color: #f28b82;
+  margin-bottom: 20px;
+}
+
+.form-container input {
+  width: calc(100% - 20px);
+  padding: 10px;
+  margin-bottom: 15px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+}
+
+.form-container button {
+  width: calc(100% - 20px);
+  padding: 10px;
+  background-color: #f28b82;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+.form-container button:hover {
+  background-color: #cc7460;
+}
+
+.form-container label {
+  align-self: flex-start;
+  margin-left: 10px;
+  margin-bottom: 5px;
+  color: #666;
+  font-weight: bold;
+}
+
+.form-container p {
+  margin-top: 15px;
+}
+
+.form-container a {
+  color: #f28b82;
+  text-decoration: underline;
+}
+
+.form-container a:hover {
+  color: #cc7460;
+}
+
+.form-container button {
+  width: calc(100% - 20px);
+  padding: 10px;
+  margin-top: 10px;
+}
+
+.form-container button:nth-child(1) {
+  background-color: #f28b82;
+}
+
+.form-container button:nth-child(2),
+.form-container button:nth-child(3) {
+  background-color: #ccc;
+  color: #333;
+}
+
+.form-container button:hover {
+  opacity: 0.9;
+}
