@@ -1,9 +1,9 @@
 import React, { useState, useEffect } from 'react';
 
 function Timer({ onSessionComplete }) {
-  const [timeLeft, setTimeLeft] = useState(25 * 60); // Initial time for the Pomodoro (25 minutes)
+  const [timeLeft, setTimeLeft] = useState(25 * 60);
   const [isRunning, setIsRunning] = useState(false);
-  const [isWorkSession, setIsWorkSession] = useState(true); // Track if it's a work session
+  const [isWorkSession, setIsWorkSession] = useState(true);
 
   useEffect(() => {
     if (isRunning && timeLeft > 0) {
